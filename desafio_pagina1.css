@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+
+/* O que falta é : Colocar o negocio do lado do input, 
+terminar o cupom de desconto, ajustar a estrela ao lado */
+
 body {
     margin: 0 auto;
     max-width: 1440px;
@@ -13,11 +17,12 @@ header {
     align-items: center;
     background-color: #0F1C26;
     padding: 16px 133px 16px 70px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
 }
 
 header > a {
     display: flex;
-    justify-items: center;
     flex-basis: auto;
     margin-left: 8px;
 }
@@ -71,6 +76,7 @@ a {
 .card_esquerda_cima {
     display: flex;
     background: linear-gradient(82.48deg, #FFE4F8 1.63%, #FFFFFF 69.09%);
+    font-family: 'Quantico', sans-serif;
 }
 
 .textos_cards {
@@ -128,6 +134,7 @@ a {
 }
 
 #topFilmes_Titulo {
+    font-family: 'Manrope', sans-serif;
     font-weight: bold;
     font-size: 24px;
     color: #FDFDFD;
@@ -151,8 +158,9 @@ a {
 .filmes {
     display: flex;
     flex-direction: column;
-    width: 168px;
+    max-width: 168px;
     background-color: black;
+    font-family: 'Manrope', sans-serif;
     /* Ajustar e retirar a largura dos filmes */
     /* Ajustar e retirar a largura dos filmes */
     /* Ajustar e retirar a largura dos filmes */
@@ -178,6 +186,10 @@ a {
 .card_nomeFilme_nota > img {
     display: inline;
     margin-left: 76px
+}
+
+.notaFilme {
+    font-size: 12px;
 }
 
 .card_rodape_filmes{
@@ -208,6 +220,7 @@ a {
     font-weight: bold;
     font-size: 24px;
     color: #FDFDFD;
+    font-family: 'Manrope', sans-serif;
 }
 
 .categoria_botoes {
@@ -216,11 +229,17 @@ a {
     margin-top: 16px;
 }
 
+
+/* botao normal  */
+
 .categoria_botoes > button {
     max-width: 168px;
     flex-grow: 1;
     background: rgba(225, 131, 200, 0.2);
     border: 2px solid #E183C8;
+    font-family: sans-serif;
+    color: #E183C8;
+    font-weight: bold;
     font-size: 16px;
     padding: 9px    ;
     text-align: center;
@@ -252,6 +271,7 @@ a {
 }
 
 .direita {
+    font-family: 'Manrope', sans-serif;
     margin-top: 24px;
 }
 .cabecalho_direita_cima {
@@ -302,6 +322,7 @@ a {
 .rodape_direita > span {
     align-self: flex-start;
     padding-bottom: 2px;
+    color:#FDFDFD;
 }
 
 .cabecalho_direita_meio {
@@ -309,17 +330,13 @@ a {
     backdrop-filter: blur(15px);
 }
 
-.rodape_direita {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #cupomDesconto {
     flex-grow: 1;
-    padding: 8px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
     background-color: #171B1E;
     font-size: 16px;
-    padding-left: 16px;
     background: #0B1217;
     color: #FDFDFD;
 }

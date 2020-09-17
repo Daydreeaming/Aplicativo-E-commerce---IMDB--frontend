@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* O que falta é : Colocar o negocio do lado do input, 
+terminar o cupom de desconto, ajustar a estrela ao lado */
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1C26;
+    padding: 16px 133px 16px 70px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+
+header > a {
+    display: flex;
+    flex-basis: auto;
+    margin-left: 8px;
+}
+
+#pesquisaHeader {   
+    max-width: 456px;
+    flex-grow: 1;
+    padding: 16px 0;
+    background-color: #171B1E;
+    font-size: 16px;
+    color: #FDFDFD;
+    padding-left: 13px;
+}
+
+.headerLink > img {
+    margin-right: 8px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    margin: 0
+}
+
+.usuario > img {
+    margin-left: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

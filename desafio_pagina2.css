@@ -146,6 +146,7 @@ a {
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(40px);
     padding-left: 24px;
+    padding-bottom: 16px;
 } 
 
 .conteudo_direita_meio {
@@ -153,18 +154,44 @@ a {
     flex-direction: column;
 }
 
-.itens_carrinhos{
+
+.resumo_carrinho{
     display: flex;
-    justify-content: flex-start;
-    padding-top: 21px;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-top: 50px;
 }
 
-.informacoes_produto{
+
+.rodape_direita {
     display: flex;
-    padding-left: 16px;
+    flex-direction: column;
+    margin-top: 16px;
 }
 
-.informacoes_produto_direita{
-    display: flex;
-    justify-content: space-evenly;
+.rodape_direita > span {
+    color: #FDFDFD;
 }
+
+#cupomDesconto {
+    padding: 8px 0 8px 16px;
+    margin-right: 16px;
+    background-color: #171B1E;
+    font-size: 16px;
+    background: #0B1217;
+    color: #FDFDFD;
+}
+
+.botao_concluido{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 22px;
+    margin-right: 9px;
+    background-color: #E25EBF;
+    color: #FDFDFD;
+    font-weight: bold;
+    font-size: 16px;    
+    border: none;
+}
+
