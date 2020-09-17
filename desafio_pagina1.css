@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1C26;
+    padding: 16px 133px 16px 70px;
+}
+
+header > a {
+    display: flex;
+    justify-items: center;
+    flex-basis: auto;
+    margin-left: 8px;
+}
+
+#pesquisaHeader {   
+    max-width: 456px;
+    flex-grow: 1;
+    padding: 16px 0;
+    background-color: #171B1E;
+    font-size: 16px;
+    color: #FDFDFD;
+    padding-left: 13px;
+}
+
+.headerLink > img {
+    margin-right: 8px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    margin: 0
+}
+
+.usuario > img {
+    margin-left: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pai {
+    background-color: #1D2226;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    max-width: 937px;
+    flex-grow: 1;
+    margin-left: 96.5px;
+    margin-right: 59.64px;
+    margin-top: 24px;
+}
+
+.card_esquerda_cima {
+    display: flex;
+    background: linear-gradient(82.48deg, #FFE4F8 1.63%, #FFFFFF 69.09%);
+}
+
+.textos_cards {
+    display: flex;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.textos_cards_esquerda {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+}
+
+.textos_cards_esquerda > span {
+    font-size: 40px;
+}
+
+.textos_cards_esquerda > p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.bordinha {
+    margin: auto;
+    opacity: 0.2;
+    border: 1px solid #F294D8;
+    height: 46px;
+}
+
+.textos_cards_direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.textos_cards_direita > span {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.textos_cards_direita > p {
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 0px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card_esquerda_topFilmes {
+    padding-top: 40px;
+}
+
+#topFilmes_Titulo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FDFDFD;
+}
+
+.topFilmes_card_filmes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    width: 168px;
+    background-color: black;
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+    /* Ajustar e retirar a largura dos filmes */
+}
+
+.card_cabecalho_filmes {
+    padding-top: 12px;
+    padding-left: 9px;
+}
+
+.card_nomeFilme_nota {
+    display: flex;
+    justify-content: space-between;
+    padding: 237px 8px 0 8px;
+    color: wheat;
+}
+
+.card_nomeFilme_nota > img {
+    display: inline;
+    margin-left: 76px
+}
+
+.card_rodape_filmes{
+    display: flex;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+}
+
+.card_rodape_filmes > button{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 152px;
+    background: #A785ED;
+    padding: 4px 8px;
+    color: #eee6ff;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card_esquerda_filmes{
+    margin-top: 40px;
+}
+
+#filmes_Titulo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FDFDFD;
+}
+
+.categoria_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.categoria_botoes > button {
+    max-width: 168px;
+    flex-grow: 1;
+    background: rgba(225, 131, 200, 0.2);
+    border: 2px solid #E183C8;
+    font-size: 16px;
+    padding: 9px    ;
+    text-align: center;
+
+    /* APLICAR ESTE ESTILO QUANDO O MOUSE ESTIVER EM CIMA DO BOTÃO 
+    background: rgba(225, 131, 200, 0.2);
+    border: 2px solid #E183C8;*/
+
+
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+    /* Ajustar e retirar a largura dos botões */
+}
+
+.filmes_card_filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 937px;
+}
+
+.filmes_card_filmes > .filmes {
+    margin-top: 24px;
+}
+
+.direita {
+    margin-top: 24px;
+}
+.cabecalho_direita_cima {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+}
+
+.conteudo_cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 17.86px 92.29px 18.14px 93px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FDFDFD;
+}
+
+.direita_baixo {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+.textos_direita{
+    padding-top: 32px;
+}
+
+.textos_direita > span {
+    font-weight: bold;
+    font-size: 24px;
+    color:#FDFDFD;
+}
+
+.textos_direita > h4 {
+    opacity: 0.8;
+    font-weight: 500;
+    color:#FDFDFD;
+}
+
+.rodape_direita {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 16px 24px;
+}
+
+.rodape_direita > span {
+    align-self: flex-start;
+    padding-bottom: 2px;
+}
+
+.cabecalho_direita_meio {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+.rodape_direita {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cupomDesconto {
+    flex-grow: 1;
+    padding: 8px 0;
+    background-color: #171B1E;
+    font-size: 16px;
+    padding-left: 16px;
+    background: #0B1217;
+    color: #FDFDFD;
+}
