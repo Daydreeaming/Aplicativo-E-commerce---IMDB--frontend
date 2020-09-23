@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio de front end - E commerce </title>
     <link rel="stylesheet" href="desafio_pagina2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
             <img src="imagens/icone.svg">
-            <input id="pesquisaHeader" placeholder= "Pesquise filmes..."/>
+            <input id="pesquisaHeader" placeholder= "Pesquise filmes...">
             <a class= "headerLink" href="#"> <img src="imagens/favorito.svg"> Favoritos</a> 
             <a class= "headerLink" href="#"> <img src="imagens/promocao.svg"> Promoção</a> 
 
@@ -20,139 +21,115 @@
             </div>
     </header>
 
-    <div class="pai">
-        <form class="esquerda">
-            <div class="card_esquerda_informacoes_cima"> 
-                <h2 class="cabecalho_card_esquerda"> Informações iniciais </h2>     
-                <div class="conteudo_informacoes_esquerda">
-                    <div class ="informacao">
-                        <span>Insira seu nome completo</span>
-                        <input class="estilizar_input" placeholder="Ex: Matheus Vinicius"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>Insira seu e-mail</span>
-                        <input class="estilizar_input" type="email" placeholder="Ex: mateussin@arroba.com"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>Telefone</span>
-                        <input class="estilizar_input" type="tel" placeholder="Ex: +55 (71) 9      -"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card_esquerda_informacoes_cima"> 
-                <h2 class="cabecalho_card_esquerda"> Informações de endereço </h2>     
-
-                <div class="conteudo_informacoes_esquerda">
-                    <div class ="informacao">
-                        <span>CEP</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: 00000-000"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>País</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: Brasil"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>Cidades</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: Salvador"/>
-                    </div>
-
-                    <div class ="informacao">
-                        <span>Bairro</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: Graça"/>
-                    </div>
-
-                    <div class ="informacao">
-                        <span>Numero</span>
-                        <input class="estilizar_input" type="text"placeholder="Ex: 00"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card_esquerda_informacoes_cima"> 
-                <h2 class="cabecalho_card_esquerda"> Informações de pagamento </h2>     
-
-                <div class="conteudo_informacoes_esquerda">
-                    <div class ="informacao">
-                        <span>Numero Do Cartão</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: 00000 00000 0000"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>Nome do cartão</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: MATHEUS VINICIUS"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>Data de expiração</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: MM/YYYY"/>
-                    </div>
-
-                    <div class="informacao">
-                        <span>CVV</span>
-                        <input class="estilizar_input" type="text" placeholder="Ex: 000"/>
-                    </div>
-                </div>
-            </div>
-        </form>
-
-        <div class="direita">
-            <div class="cabecalho_direita_cima">
-                <div class="conteudo_cabecalho">
-                    <span>Resumo dos pedidos</span>
-                </div>
-            </div>
-
-            <div class="conteudo_direita_meio">
-                <div class="itens_carrinhos">
-                    <div class = "informacoes_produto">
-                        <div class="informacoes_produto_esquerda">
-                            <!-- imagem --> <span> imagem </span>
-                            <span> Joker </span>
-                            <p> $2,49</p>
-                        </div>
-                        <div class="informacoes_produto_direita"></div>
-                            <span> + Add </span>
-                            <span> qtd + 1</span>
-                            <span> - Lixo </span>
-                    </div>
+<div class="pai">
+    <form class="esquerda">
+        <div class="card_esquerda_informacoes_cima"> 
+            <h2 class="cabecalho_card_esquerda"> Informações iniciais </h2>     
+            <div class="conteudo_informacoes_esquerda">
+                <div class ="informacao">
+                    <span>Insira seu nome completo</span>
+                    <input class="estilizar_input" placeholder="Ex: Matheus Vinicius"/>
                 </div>
 
-                <div class="itens_carrinhos">
-                    <div class = "informacoes_produto">
-                        <div class="informacoes_produto_esquerda">
-                            <!-- imagem --> <span> imagem </span>
-                            <span> Joker </span>
-                            <p> $2,49</p>
-                        </div>
-                        <div class="informacoes_produto_direita"></div>
-                            <span> + Add </span>
-                            <span> qtd + 1</span>
-                            <span> - Lixo </span>
-                    </div>
-
-                    <div class="resumo_carrinho">
-                        <span>Subtotal</span>
-                        <span>R$ 2.49</span>
-                    </div>
-
-                    <div class="rodape_direita">
-                        <span>Insira seu cupom</span>
-                        <input id="cupomDesconto" placeholder="Cupom de desconto">
-                        <button class="botao_concluido"> 
-                            <span>Comprar agora </span>
-                            <span>R$ 2.49</span>
-                        </button>
-                    </div>
+                <div class="informacao">
+                    <span>Insira seu e-mail</span>
+                    <input class="estilizar_input" type="email" placeholder="Ex: mateussin@arroba.com"/>
                 </div>
 
+                <div class="informacao">
+                    <span>Telefone</span>
+                    <input class="estilizar_input" type="tel" placeholder="Ex: +55 (71) 9      -"/>
+                </div>
             </div>
         </div>
+
+        <div class="card_esquerda_informacoes_cima"> 
+            <h2 class="cabecalho_card_esquerda"> Informações de endereço </h2>     
+
+            <div class="conteudo_informacoes_esquerda">
+                <div class ="informacao">
+                    <span>CEP</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: 00000-000"/>
+                </div>
+
+                <div class="informacao">
+                    <span>País</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: Brasil"/>
+                </div>
+
+                <div class="informacao">
+                    <span>Cidades</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: Salvador"/>
+                </div>
+
+                <div class ="informacao">
+                    <span>Bairro</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: Graça"/>
+                </div>
+
+                <div class ="informacao">
+                    <span>Numero</span>
+                    <input class="estilizar_input" type="text"placeholder="Ex: 00"/>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="card_esquerda_informacoes_cima"> 
+            <h2 class="cabecalho_card_esquerda"> Informações de pagamento </h2>     
+
+            <div class="conteudo_informacoes_esquerda">
+                <div class ="informacao">
+                    <span>Numero Do Cartão</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: 00000 00000 0000"/>
+                </div>
+
+                <div class="informacao">
+                    <span>Nome do cartão</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: MATHEUS VINICIUS"/>
+                </div>
+
+                <div class="informacao">
+                    <span>Data de expiração</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: MM/YYYY"/>
+                </div>
+
+                <div class="informacao">
+                    <span>CVV</span>
+                    <input class="estilizar_input" type="text" placeholder="Ex: 000"/>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="direita">
+        <div class="cabecalho_direita_cima">
+            <div class="conteudo_cabecalho">
+                <span>Resumo dos pedidos</span>
+            </div>
+        </div>
+
+        <div class="conteudo_direita_meio">
+            <ul class = "conteudo_global_carrinho">
+            </ul>
+
+                <div class="resumo_carrinho">
+                    <span>Subtotal</span>
+                    <span class="subtotalPreco">R$ 2.49</span>
+                </div>
+
+                <div class="rodape_direita">
+                    <span>Insira seu cupom</span>
+                    <input id="cupomDesconto" placeholder="Cupom de desconto">
+                    <button class="botao_concluido" href="desafio_pagina3.html"> 
+                        <span>Comprar agora </span>
+                        <span>R$ 2.49</span>
+                    </button>
+                </div>
+        </div>
     </div>
+<img src="imagens/carrinho.svg">
 </div>
 </body>
+<script src="desafio_pagina2.js"></script>
 </html>
